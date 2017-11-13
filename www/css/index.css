@@ -1,0 +1,199 @@
+    * {
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+    
+    body {
+        background-color: #A7A7A7;
+        text-align: center;
+    }
+    
+    #main {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+    
+    #title {
+        position: relative;
+        top: 2vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+        font-size: 10vh;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    
+    #ip {
+        position: relative;
+        top: 5vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    #send-ip {
+        position: relative;
+        top: 5vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    #note {
+        position: relative;
+        top: 10vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    #send-note {
+        position: relative;
+        top: 10vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    #name {
+        position: relative;
+        top: 15vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    #send-name {
+        position: relative;
+        top: 15vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    #onona {
+        position: relative;
+        top: 20vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+        font-size: 5vh;
+        color: red;
+    }
+    
+    #lock {
+        display: "block";
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+    
+    #loc-title {
+        position: relative;
+        top: 5vh;
+        left: 0;
+        width: 100vw;
+        height: 10vh;
+        font-size: 5vh;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    
+    .dot {
+        position: fixed;
+        top: 15vh;
+        width: 3vh;
+        height: 3vh;
+        border: 1vh solid black;
+        background-color: black;
+        border-radius: 100px;
+    }
+    
+    #dot-1 {
+        left: 16vw;
+    }
+    
+    #dot-2 {
+        left: 36vw;
+    }
+    
+    #dot-3 {
+        right: 36vw;
+    }
+    
+    #dot-4 {
+        right: 16vw;
+    }
+    
+    .btn {
+        position: fixed;
+        width: 25vw;
+        height: 25vw;
+        border: none;
+        border-radius: 100px;
+    }
+    
+    #btn-1 {
+        top: 25vh;
+        left: 10vw;
+    }
+    
+    #btn-2 {
+        top: 25vh;
+        left: 40vw;
+    }
+    
+    #btn-3 {
+        top: 25vh;
+        left: 70vw;
+    }
+    
+    #btn-4 {
+        top: 45vh;
+        left: 10vw;
+    }
+    
+    #btn-5 {
+        top: 45vh;
+        left: 40vw;
+    }
+    
+    #btn-6 {
+        top: 45vh;
+        left: 70vw;
+    }
+    
+    #btn-7 {
+        top: 65vh;
+        left: 10vw;
+    }
+    
+    #btn-8 {
+        top: 65vh;
+        left: 40vw;
+    }
+    
+    #btn-9 {
+        top: 65vh;
+        left: 70vw;
+    }
+    
+    #reset {
+        position: fixed;
+        left: 10vw;
+        top: 85vh;
+        width: 80vw;
+        height: 10vh;
+        border: 1px solid black;
+        border-radius: 0;
+    }
